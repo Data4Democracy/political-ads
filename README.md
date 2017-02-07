@@ -4,7 +4,7 @@
 
 **Slack Channel**: #political-ads 
 
-**Project Description**: Extracting and parsing data on political advertising from [FCC Public Files] (publicfiles.fcc.gov) and [related sources] (https://politicaladarchive.org/data/).
+**Project Description**: Extracting and parsing data on political advertising from [FCC Public Files] (https://publicfiles.fcc.gov) and [related sources] (https://politicaladarchive.org/data/).
 
 **Project Lead**: @pratheekrebala
 
