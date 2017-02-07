@@ -1,0 +1,135 @@
+Contract #
+Contract Dates
+Schedule Dates
+Product
+Commision
+Commision. Va
+Contract#
+Net Total
+Total $
+Estimate #
+Separation
+Spots
+Product Type
+Cost
+Units Ordered
+Units Aired
+Invoice Notes
+Gross Advertising Total
+Rep Commission
+Net Advertising Total
+Orders Order/Rev.
+Original Date / Revision
+Product Desc
+Estimate
+Flight Dates
+Order#
+Alt Order#
+Original Date/Rev
+Order Type
+Agency Name
+Date Entered
+Buying Contract
+Buying Contact
+Billing Contract
+Advertiser
+Last Modified
+Advertiser Name
+Advertiser Code
+Product Code
+Demographic
+Product Codes
+Rate
+Priority
+Revenue Codes
+Bill Plan
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Rating
+Billing Type
+Order Seperation
+Cash/Trade
+Buyer Name
+Commission
+Buyer
+Customer No
+Customer
+Salesperson
+Inv Dates
+Billing Calendar
+Property Account Executive
+Account Executive
+Special Handling
+Headline #
+Brand
+Product
+Schedule Dates
+Advertiser External ID
+Account Types
+Agency External ID
+Flight
+Market
+Vat Code
+Office
+Total Spots
+Total $
+Total CRP
+Total GRP
+Con Type
+Sales Office
+Sales Region
+Entered By
+Invoice
+Inv Date
+Invoice Date
+Invoice No
+Bill Cycle
+Invoice Due Date
+Period
+Changes as of
+Total CPP
+Assistant
+Total Ratings
+Rep Commission
+Agency Commission
+Seperation
+Seperation between spots
+Gross Total
+Buyer
+Primary AE
+Primary Demo
+Traffic#
+Version
+Agency
+Comments
+Printed on
+Billing Cycle
+Agency Ref
+Advertiser Ref
+Agency Order #
+Order No
+Alt Order #
+Order #
+Contract / Revision
+Order / Rev
+Net Tota
+Net Total
+Grand Total
+CPE
+Station
+Billina Cvcle
+Billina Cycle
+Billina Calendar
+Demo\b
+Estimate Number
+Bv Broadcast Month
+Original Date / Rev
+\w+ #
+Invoice Period
+Property
+Deal #
+Invoice Month
+Order Flight
