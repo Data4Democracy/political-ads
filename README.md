@@ -21,4 +21,5 @@ This project aims to develop a pipeline for fetching, cleaning and parsing the d
 ## Related Projects
 
 [Sunlight AdSleuth] (https://github.com/sunlightlabs/fcc_political_ads)
+
 [FCC Political Ads] (https://github.com/alexbyrnes/FCC-Political-Ads)
