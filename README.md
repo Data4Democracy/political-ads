@@ -17,3 +17,8 @@ A few sample PDF files have been provided in the `samples` directory.
 ## Project Goals
 
 This project aims to develop a pipeline for fetching, cleaning and parsing the data on political ad spending available from the FCC's Public Files.
+
+## Related Projects
+
+[Sunlight AdSleuth] (https://github.com/sunlightlabs/fcc_political_ads)
+[FCC Political Ads] (https://github.com/alexbyrnes/FCC-Political-Ads)
