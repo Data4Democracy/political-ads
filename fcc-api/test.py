@@ -1,5 +1,6 @@
 from facility import Facility
+from politicalfile import PoliticalFile
 
 #Facility(id=1051)#.fetch()
 
-print(Facility.search(keyword='WJLA'))
+print(PoliticalFile.fetchAll(entityId=1051))
