@@ -1,6 +1,8 @@
+import os
 from .api import callApi, downloadFile
+from pymodm import MongoModel, fields
 
-class PoliticalFile(object):
+class PoliticalFile(MongoModel):
 
     def __init__(self, fileObj):
         '''
@@ -21,15 +23,11 @@ class PoliticalFile(object):
 
         '''
 
-        if not hasattr(self, 'status'):
-            self.id = fileObj['file_id']
-            self.metadata = fileObj
-            self.downloaded = False
-            self.needs_ocr = False
-            self.status = 'initialized'
-            self.isnab = False
-            self.download()
-
+    id = fields.MongoBaseField()
+    downloaded = fields.MongoBaseField(default=False)
+    needs_ocr = fields.MongoBaseField(default=False)
+    status = fields.MongoBaseField(default='initialized')
+    isnab = fields.MongoBaseField(default=False)
 
     def fetchAll(entityId):
         '''
@@ -37,10 +35,10 @@ class PoliticalFile(object):
         https://publicfiles.fcc.gov/api/manager/search/key/Political%20File.json?entityId=1051
         '''
         entityUrl = "manager/search/key/Political File.json"
-        params = {"entityId":1051}
+        params = {"entityId":entityId}
         folder_results = callApi(entityUrl, params)
         if folder_results:
-            return [PoliticalFile(file) for file in folder_results['searchResult']['files']]
+            return [PoliticalFile(id=file.pop('file_id', 'Missing'), metadata=file) for file in folder_results['searchResult']['files']]
         else:
             return None
 
@@ -64,18 +62,17 @@ class PoliticalFile(object):
 
     def needOcr(self):
         '''
-        Check if OCR is needed
+        Check for embedded text to decide if OCR is needed
         :return:
         '''
     def doOcr(self):
         '''
-        Do OCR.
+        Execute the OCR pipeline
         :return:
         '''
 
     def tabulaExtraction(self):
         '''
         Do Tabula extraction for current file
-        :return:
+        :return: JSON output from Tabula.
         '''
-
